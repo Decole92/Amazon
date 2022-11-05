@@ -32,7 +32,7 @@ const ProductQuantity = getProductQuantity(id);
      
         <p className='text-xs my-2 line-clamp-2'>{description} </p>
         <div className='mb-5 font-bold'>
-        € {price}
+        {price * 25}Kč
         </div> 
 
      <div className='mt-auto flex flex-col'>

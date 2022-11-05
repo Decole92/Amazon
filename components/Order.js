@@ -16,7 +16,7 @@ function Order({id, amount, items, timestamp, images}) {
                   <p className='text-xs font-bold uppercase'>Total</p>
                 <p className='font-bold'> 
                     
-                € { amount.toFixed(2) }
+                { amount.toFixed(2) } Kč
                 </p>
                </div>
               <p className='text-sm whitespace-nowrap sm:text-xl self-end flex-1 text-right text-blue-500'>{items?.length} Item(s) </p>

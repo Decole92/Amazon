@@ -105,7 +105,7 @@ const checkoutSession = await axios.post('/api/create-checkout-session',
 
                 <h2 className='whitespace-nowrap'>Subtotal ({items.length} items): {" "}
                 
-                <span className='font-bold'>€ {getTotalCost().toFixed(2)}</span>
+                <span className='font-bold'> {getTotalCost().toFixed(2)} Kč</span>
                
                 </h2>
                 <button onClick={createCheckoutSession} disabled={!session} className={`mt-auto font-semibold p-2 text-xs md:text-sm bg-gradient-to-b from-yellow-200 to-yellow-400 border-yellow-300 border rounded-sm focus:outline-none focus:ring-1 focus:ring-yellow-500 active:from-yellow-500 ${!session && 'from-gray-300 to-gray-500 broder-gray-200 text-gray-300 cursor-not-allowed'}`}>
