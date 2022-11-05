@@ -14,7 +14,7 @@ const transformedItems = arr3.map((item) => ({
     quantity: item.quantity, 
     price_data: {
         currency: 'czk',
-        unit_amount: item.price * 100,
+        unit_amount: item.price * 25 * 100,
         product_data: {
           name: item.title,
           description: item.description, //description here
