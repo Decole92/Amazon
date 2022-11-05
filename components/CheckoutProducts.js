@@ -25,7 +25,7 @@ function CheckoutProducts({id, quantity}) {
         
             <p className='text-xs my-2  line-clamp-3'>{productData.description}</p>
           
-           <p className='font-bold'>€{(quantity * productData.price)}</p> 
+           <p className='font-bold'>{(quantity * productData.price * 25)} Kč</p> 
 
         </div>
         <div className='flex flex-col space-col space-y-2 my-auto jusitfy-self-end'>
