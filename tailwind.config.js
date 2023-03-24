@@ -6,14 +6,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors:{
-        amazon_blue:{
-
-          light:"#232F3E",
-          DEFAULT:"#131921",
-        }
-      }
+      colors: {
+        amazon_blue: {
+          light: "#232F3E",
+          DEFAULT: "#131921",
+        },
+      },
     },
   },
-  plugins: [require('@tailwindcss/line-clamp'),  require('tailwind-scrollbar-hide')],
-}
+  plugins: [
+    require("@tailwindcss/line-clamp"),
+    require("tailwind-scrollbar-hide"),
+  ],
+};

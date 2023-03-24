@@ -25,8 +25,8 @@ const transformedItems = arr3.map((item) => ({
 
 const session = await stripe.checkout.sessions.create({
     payment_method_types: ["card"],
-   // shipping_options:["shr_1Luw9aGxwPgIIb5AE5shdTFW"],
-   /// shipping_address_collection: {
+    // shipping_options:["shr_1Luw9aGxwPgIIb5AE5shdTFW"],
+    /// shipping_address_collection: {
     //allowed_countries: ['GB','US','SK','CZ']
     //},
 

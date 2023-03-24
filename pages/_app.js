@@ -1,20 +1,15 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
 import { SessionProvider } from "next-auth/react";
-import {CartProvider} from '../CartContext'
+import { CartProvider } from "../CartContext";
 
 function MyApp({ Component, pageProps }) {
- 
-
   return (
     <SessionProvider>
-
       <CartProvider>
-      <Component {...pageProps} />
+        <Component {...pageProps} />
       </CartProvider>
-        
     </SessionProvider>
-    )
-
+  );
 }
 
-export default MyApp
+export default MyApp;
